@@ -1,0 +1,20 @@
+{
+    "name": "Celke",
+    "description": "Projeto PHP OO",
+    "authors": [
+        {
+            "name": "Danilo Joaquim",
+            "email": "contato@danilojoaquim.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\" : "core",
+            "Sts\\": "app/sts",
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
